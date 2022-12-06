@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" href="styles.css":>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Group 5 Website</title>
+</head>
+<body>
+
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+alert("Greetings, Welcome to the Group 5 Website.");
+
+</script>
+
+  <style>
+   body {background-color: #660000;}
+  </style>
+  
+  <img src="Freakonomics.png" alt="Group 5 Logo" width="200" height="200">
+  
+<h1 style="font-size:60px;font-family:georgia;color:red"> What is Streaming? </h1>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-It is the method of transmitting or receiving data (especially video and audio material) over a computer network as a steady, continuous flow, allowing playback to start while the rest of the data is still being received. </p>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-Streamed video content can include movies, TV shows, YouTube videos and live streamed content. Services such as Netflix and Hulu have had great success in streaming videos to subscribers.</p>
+
+  <hr class="solid">
+
+  <h1 style="font-size:40px;font-family:georgia;color:red"> What are the types of streaming content?
+ </h1>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-Podcasts, webcasts, movies, TV shows and music videos are common forms of streaming content.
+ </p>
+  
+  <hr class="solid">
+  
+  <h1 style="font-size:40px;font-family:georgia;color:red"> What are the platforms used for streaming? </h1>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-Twitch</p>
+<p style="color:white;font-family:Courier New;font-size:18px">-Youtube Live</p>
+<p style="color:white;font-family:Courier New;font-size:18px">-Stream Yard</p>
+<p style="color:white;font-family:Courier New;font-size:18px">-Dacast</p>
+  <p style="color:white;font-family:Courier New;font-size:18px">-Stream Shark</p>
+
+  <hr class="solid">
+
+ <h1 style="font-size:40px;font-family:georgia;color:red"> Viewers analysis for each streaming category: </h1>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-We would be focusing on teenagers who suffer from social anxiety and help them  share their experiences and how they overcome it.  </p>
+  <hr class="solid">
+  
+   <h1 style="font-size:40px;font-family:georgia;color:red"> Need of Viewers: </h1>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-For them to know they're not the only one who suffer social anxiety and also help each other to overcome it.</p>
+  <hr class="solid">
+  
+    <h1 style="font-size:40px;font-family:georgia;color:red"> What are the Characteristics of a good stream? </h1>
+  
+<p style="color:white;font-family:Courier New;font-size:18px">-A good streamer can roll with the punches, make quality entertainment despite it all.” Additionally, streamers show flexibility when gaining momentum on their channel, especially with viewer count.</p>  
+
+  <hr class="solid"> 
+  
+<button type="button" class="collapsible">EG 1 |  Introduction to Streaming</button>
+<div class="content">
+  <h2>1. How Can LifeLabs Help Me Maximize the Use of Streaming?</h2>
+  <p>-Lifelabs encourages students to cooperate and interact with their peers which can boost their confidence and can be helpful in the future. Boost in confidence can be helpful if someone were to be in a situation where they need to do public speaking or simply a live stream. With confidence and support from their peers they'll be able to be a better version of themselves and move forward.
+</p>
+  <hr class="solid">
+  <h2>2. How Do I Know What Content to Create for Streaming?</h2>
+  <p>First you should find your audience interest and once you find out what’s their
+interest, you need to brainstorm some content ideas and choose a platform
+where you want to post your content. Determine when and how often you stream, and lastly you need to schedule your content.
+</p>
+</div>
+
+<button type="button" class="collapsible">EG 2 | What are the Different Platforms for Streaming?</button>
+<div class="content">
+  <h1>What are Javascript Operators?</h1>
+  <p align="middle">JavaScript Operators are used for various purposes, and there are different types of operators used in JavaScript.</p>
+  <p align="middle">Arithmetic Operators
+used for Arithmetic or simply, math. 
+This includes the 4 basic mathematical operations of + - * / 
+as well as including more uncommon ones such as:
+ % for remainder 
+++ for increment
+ -- for decrement. 
+** for exponentiation
+</p>
+  <p align="middle">Logical Operators
+used for combining multiple conditions to each variable/values.
+These Operators include: 
+&& for an “and” condition.
+| | for an “or” condition.
+! for a “not” condition.
+</p>
+  <p align="middle">Assignment Operators
+used for assigning values to a variable.
+These include:
+= for assigning a value
++= adding a value to a variable
+-= subtracts a value to a variable
+*= multiplies a variable
+/= divides a variable
+%= assigning a value to a variable
+</p>
+</div>
+
+<button type="button" class="collapsible">EG 3 - 4  |  Who Watches These?</button>
+<div class="content">
+  <h2>What are Comparison and Logical Operators?</h2>
+  <p align="middle">Comparison Operators -
+In JavaScript, there are a number of comparison operators that you can use to evaluate whether given values are different or equal, as well as if a value is greater than or less than another.</p>
+  <p align="middle">As the name suggests, they are operators that compare variables and letters.
+
+For example, x > 3, y < 5
+
+Comparison operators used:
+== equal to
+=== equal value or equal type
+!= not equal
+!== not equal value or not equal type
+> greater than
+< less than
+>= greater than or equal to
+<= less than or equal to
+~  String Comparison
+</p>
+  <hr class="solid">
+  <p align="middle">Logical Operators -
+Used to apply logic in comparing two statements or values to 
+    get an answer of whether it is true or false.</p><p align="middle">As an example, x == 3 and y == 1
+
+The different Operators include:
+&& as an “and” Operator.
+| | as an “or” Operator.
+! as a “not” Operator.
+
+Thinking back to our previous EG, we have different JavaScript Operators, 
+Let's see if we still remember them.
+
+Comparing:
+(x < 6 && y > 0)
+ x is less than 3 AND y is greater than 0, this is true.
+
+(x == 5 | | y != 1)
+x is equal to 5 OR y is not equal to 1, this is false.
+
+!(x == y)
+  x is NOT equal to y, this is true.</p>
+  
+</div>
+    
+<button type="button" class="collapsible">EG 5- 6   |   Why Do People Watch Streams?</button>
+<div class="content">
+<p>-Create valuable content that you think will attract people to watch your stream and keep your stream's quality high. Importantly, you also need to use the professional tools provided by a good online video platform.
+</p>
+  <hr class="solid">
+  <h2>How Do I Explain the Use of Javascript Switch?</h2>
+  <p>The JavaScript switch keyword is used to create multiple conditional statements, allowing you to execute different code blocks based on different conditions. The switch statement executes a block of code depending on different cases. The switch statement is a part of JavaScript's "Conditional" Statements, which are used to perform different actions based on different conditions. Use switch to select one of many blocks of code to be executed.</p>
+</div>
+    
+  <hr class="solid">  
+  <h1 style="font-size:40px;font-family:georgia;color:red"> Source: </h1>
+   <a style="font-size:25px;color:white" href="https://www.techtarget.com/searchunifiedcommunications/definition/streaming-video">What is Video Streaming</a>
+</body>
+</html>
