@@ -542,3 +542,27 @@ tr:hover {background-color: #D6EEEE;}
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 20%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.about-colteam{
+    flex-basis: 20%;
+    background: #fff3f3;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 25px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
