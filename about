@@ -41,6 +41,10 @@ img {
   border: 5px solid #555;
 }
 
+h1{
+  text-align: center;
+}
+
 h5{
     color: #222;
     font-weight: 600;
@@ -50,26 +54,28 @@ h5{
 }
 </style>
 
+<h1>Our Members</h1>
+
 	<div class="row">
             <div class="about-colteam">
   	  <img src="andrei.jpg" alt="Andrei Sarmiento" style="width:100%">
                 <h3>Andrei Sarmiento</h3>
-		<h5>andrei.sarmiento@apecschools.edu.ph</h5>
+		<h5>ap.andrei.sarmiento@apecschools.edu.ph</h5>
  	 </div>
             <div class="about-colteam">
    	 <img src="chynna.png" alt="Chynna Espinosa" style="width:100%">
 		<h3>Chynna Espinosa</h3>
-		<h5>chynnamae.espinosa@apecschools.edu.ph</h5>
+		<h5>ap.chynnamae.espinosa@apecschools.edu.ph</h5>
 	</div>
             <div class="about-colteam">
   	  <img src="rhy.jpg" alt="Gayle Talvo" style="width:100%">
 		<h3>Gayle Talvo</h3>
-		<h5>gaylerhyedriel.talvo@apecschools.edu.ph</h5>
+		<h5>ap.gaylerhyedriel.talvo@apecschools.edu.ph</h5>
  	 </div>
             <div class="about-colteam">
   	  <img src="tricia.jpg" alt="Tricia Fraginal" style="width:100%">
 		<h3>Tricia Fraginal</h3>
-		<h5>triciaanne.fraginal@apecschools.edu.ph</h5>
+		<h5>ap.triciaanne.fraginal@apecschools.edu.ph</h5>
 	  </div>
 	</div>
 
