@@ -35,12 +35,49 @@
             <h1>Let Our Voices Be Heard</h1>
             <p>We at Freakonomics Podcast, strive to have people's voices heard. Those who are struggling to fit in the mold, specifically, Teenagers struggling with anxiety, is to be our main topic. We are aiming to let other teenagers who are struggling with anxiety have a peace in mind that they are not alone. With our podcast, we want to let people share their experiences with Anxiety, how they live with it, and some tips that they may want to share. </p>
             <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+
+<style>
+img {
+  border: 5px solid #555;
+}
+
+h5{
+    color: #222;
+    font-weight: 600;
+    margin: 30px 0;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+</style>
+
+	<div class="row">
+            <div class="about-colteam">
+  	  <img src="andrei.jpg" alt="Andrei Sarmiento" style="width:100%">
+                <h3>Andrei Sarmiento</h3>
+		<h5>andrei.sarmiento@apecschools.edu.ph</h5>
+ 	 </div>
+            <div class="about-colteam">
+   	 <img src="chynna.png" alt="Chynna Espinosa" style="width:100%">
+		<h3>Chynna Espinosa</h3>
+		<h5>chynnamae.espinosa@apecschools.edu.ph</h5>
+	</div>
+            <div class="about-colteam">
+  	  <img src="rhy.jpg" alt="Gayle Talvo" style="width:100%">
+		<h3>Gayle Talvo</h3>
+		<h5>gaylerhyedriel.talvo@apecschools.edu.ph</h5>
+ 	 </div>
+            <div class="about-colteam">
+  	  <img src="tricia.jpg" alt="Tricia Fraginal" style="width:100%">
+		<h3>Tricia Fraginal</h3>
+		<h5>triciaanne.fraginal@apecschools.edu.ph</h5>
+	  </div>
+	</div>
+
         </div>
         <div class="about-col">
             <img src="microphone.jpg">
         </div>
     </div>
-
 
 </section>
 
