@@ -562,7 +562,13 @@ tr:hover {background-color: #D6EEEE;}
     background: #fff3f3;
     border-radius: 10px;
     margin-bottom: 5%;
-    padding: 20px 25px;
+    padding: 10px 10px;
     box-sizing: border-box;
     transition: 0.5s;
+}
+
+.rowabout{
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
 }
