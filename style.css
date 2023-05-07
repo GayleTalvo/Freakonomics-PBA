@@ -298,7 +298,7 @@ p{
 /*------ about us page -------*/
 
 .sub-header1{
-    height: 50vh;
+    height: 900px;
     width: 100%;
     background-image: linear-gradient(to bottom right, #101a0d, #101a0d);
     background-position: center;
