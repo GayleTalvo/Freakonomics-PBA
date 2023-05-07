@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>EDUCATION</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<link href="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="sub-header1">
+        <nav>
+            <a href="index.html"><img src="Freakonomics.png"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog.html">Content</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="channel.html">Our Events</a></li>
+                    <li><a href="analytics.html">YouTube Analytics</a></li>
+                </ul>
+            </div>
+        </nav>
+        <h1>YouTube Analytics</h1>
+    </section>
+
+<style>
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  margin-top: 10px;
+}
+
+p {
+    text-align: center;
+}
+
+img {
+  border: 5px solid #555;
+}
+
+h1 {
+text-align:center;
+}
+</style>
+    
+
+
+    <button class="collapsible">First Live Stream</button>
+    <div class="inside">
+<h1>Streamed live on Feb 10, 2023</h1>
+
+<a href="https://www.youtube.com/live/jTmn_KLfxPo?feature=share" target="_blank">
+    <img src="First Stream.png" alt="Channel Link">
+    </a>
+<p>click the thumbnail to watch the replay</p>
+<img src="analytics 13.png">
+<img src="analytics 10.png">
+<img src="analytics 11.png">
+<img src="analytics 12.png">
+
+    </div>
+
+
+    <button class="collapsible">Second Live Stream</button>
+    <div class="inside">
+        <h1>Streamed live on Apr 21, 2023</h1>
+
+        <a href="https://www.youtube.com/live/PCuz9JEMkAI?feature=share" target="_blank">
+            <img src="Second Stream.png" alt="Channel Link">
+            </a>
+        <p>click the thumbnail to watch the replay</p>
+<img src="analytics 17.png">
+<img src="analytics 14.png">
+<img src="analytics 15.png">
+<img src="analytics 16.png">
+
+    </div>
+
+    <button class="collapsible">Comparison</button>
+    <div class="inside">
+        <h1>Left spike is our first livestream, the right spike is our second stream.</h1>
+
+        <br>
+<img src="analytics 1.png">
+<img src="analytics 2.png">
+<img src="analytics 3.png">
+<img src="analytics 4.png">
+
+<img src="analytics 6.png">
+<img src="analytics 7.png">
+<img src="analytics 8.png">
+
+    </div>
+
+    <h1>Channel Analytics</h1>
+    <img src="analytics 5.png">
+    <img src="analytics 9.png">
+
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+    
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+          content.style.maxHeight = null;
+        } else {
+          content.style.maxHeight = content.scrollHeight + "px";
+        } 
+      });
+    }
+    </script>
+
+</body>
+</html>
